@@ -1,4 +1,5 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.6
+
 import PackageDescription
 
 let package = Package(
@@ -11,8 +12,13 @@ let package = Package(
             name: "PeopleInSpace",
             targets: ["PeopleInSpace"]
         ),
+        .library(name: "People", targets: ["People"])
     ],
     targets: [
+        .target(
+            name: "People",
+            dependencies: ["PeopleInSpace"]),
+        
         .binaryTarget(
             name: "PeopleInSpace",
             path: "./PeopleInSpace.xcframework"

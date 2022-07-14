@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C060D594288025F70050642C /* PeopleInSpaceSPMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060D584288025F60050642C /* PeopleInSpaceSPMApp.swift */; };
+		C060D595288025F70050642C /* PeopleInSpaceSPMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060D584288025F60050642C /* PeopleInSpaceSPMApp.swift */; };
+		C060D596288025F70050642C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060D585288025F60050642C /* ContentView.swift */; };
+		C060D597288025F70050642C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C060D585288025F60050642C /* ContentView.swift */; };
+		C060D598288025F70050642C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C060D586288025F70050642C /* Assets.xcassets */; };
+		C060D599288025F70050642C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C060D586288025F70050642C /* Assets.xcassets */; };
+		C060D5A5288026240050642C /* PeopleInSpace in Frameworks */ = {isa = PBXBuildFile; productRef = C060D5A4288026240050642C /* PeopleInSpace */; };
+		C060D5A9288026F20050642C /* People in Frameworks */ = {isa = PBXBuildFile; productRef = C060D5A8288026F20050642C /* People */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C060D584288025F60050642C /* PeopleInSpaceSPMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleInSpaceSPMApp.swift; sourceTree = "<group>"; };
+		C060D585288025F60050642C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C060D586288025F70050642C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C060D58B288025F70050642C /* PeopleInSpaceSPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleInSpaceSPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C060D591288025F70050642C /* PeopleInSpaceSPM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeopleInSpaceSPM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C060D593288025F70050642C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C060D5A22880260C0050642C /* swiftpackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = swiftpackage; path = ../../common/swiftpackage; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C060D588288025F70050642C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C060D5A5288026240050642C /* PeopleInSpace in Frameworks */,
+				C060D5A9288026F20050642C /* People in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C060D58E288025F70050642C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C060D57E288025F60050642C = {
+			isa = PBXGroup;
+			children = (
+				C060D5A22880260C0050642C /* swiftpackage */,
+				C060D583288025F60050642C /* Shared */,
+				C060D592288025F70050642C /* macOS */,
+				C060D58C288025F70050642C /* Products */,
+				C060D5A3288026240050642C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C060D583288025F60050642C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C060D584288025F60050642C /* PeopleInSpaceSPMApp.swift */,
+				C060D585288025F60050642C /* ContentView.swift */,
+				C060D586288025F70050642C /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C060D58C288025F70050642C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C060D58B288025F70050642C /* PeopleInSpaceSPM.app */,
+				C060D591288025F70050642C /* PeopleInSpaceSPM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C060D592288025F70050642C /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C060D593288025F70050642C /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		C060D5A3288026240050642C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C060D58A288025F70050642C /* PeopleInSpaceSPM (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C060D59C288025F70050642C /* Build configuration list for PBXNativeTarget "PeopleInSpaceSPM (iOS)" */;
+			buildPhases = (
+				C060D587288025F70050642C /* Sources */,
+				C060D588288025F70050642C /* Frameworks */,
+				C060D589288025F70050642C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C060D5A72880264C0050642C /* PBXTargetDependency */,
+			);
+			name = "PeopleInSpaceSPM (iOS)";
+			packageProductDependencies = (
+				C060D5A4288026240050642C /* PeopleInSpace */,
+				C060D5A8288026F20050642C /* People */,
+			);
+			productName = "PeopleInSpaceSPM (iOS)";
+			productReference = C060D58B288025F70050642C /* PeopleInSpaceSPM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C060D590288025F70050642C /* PeopleInSpaceSPM (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C060D59F288025F70050642C /* Build configuration list for PBXNativeTarget "PeopleInSpaceSPM (macOS)" */;
+			buildPhases = (
+				C060D58D288025F70050642C /* Sources */,
+				C060D58E288025F70050642C /* Frameworks */,
+				C060D58F288025F70050642C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PeopleInSpaceSPM (macOS)";
+			productName = "PeopleInSpaceSPM (macOS)";
+			productReference = C060D591288025F70050642C /* PeopleInSpaceSPM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C060D57F288025F60050642C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					C060D58A288025F70050642C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					C060D590288025F70050642C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C060D582288025F60050642C /* Build configuration list for PBXProject "PeopleInSpaceSPM" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C060D57E288025F60050642C;
+			productRefGroup = C060D58C288025F70050642C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C060D58A288025F70050642C /* PeopleInSpaceSPM (iOS) */,
+				C060D590288025F70050642C /* PeopleInSpaceSPM (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C060D589288025F70050642C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C060D598288025F70050642C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C060D58F288025F70050642C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C060D599288025F70050642C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C060D587288025F70050642C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C060D596288025F70050642C /* ContentView.swift in Sources */,
+				C060D594288025F70050642C /* PeopleInSpaceSPMApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C060D58D288025F70050642C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C060D597288025F70050642C /* ContentView.swift in Sources */,
+				C060D595288025F70050642C /* PeopleInSpaceSPMApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C060D5A72880264C0050642C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = C060D5A62880264C0050642C /* PeopleInSpace */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C060D59A288025F70050642C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C060D59B288025F70050642C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C060D59D288025F70050642C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WWFDRU947Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.dooz.PeopleInSpaceSPM;
+				PRODUCT_NAME = PeopleInSpaceSPM;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C060D59E288025F70050642C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WWFDRU947Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.dooz.PeopleInSpaceSPM;
+				PRODUCT_NAME = PeopleInSpaceSPM;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C060D5A0288025F70050642C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WWFDRU947Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.dooz.PeopleInSpaceSPM;
+				PRODUCT_NAME = PeopleInSpaceSPM;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C060D5A1288025F70050642C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WWFDRU947Q;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.dooz.PeopleInSpaceSPM;
+				PRODUCT_NAME = PeopleInSpaceSPM;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C060D582288025F60050642C /* Build configuration list for PBXProject "PeopleInSpaceSPM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C060D59A288025F70050642C /* Debug */,
+				C060D59B288025F70050642C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C060D59C288025F70050642C /* Build configuration list for PBXNativeTarget "PeopleInSpaceSPM (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C060D59D288025F70050642C /* Debug */,
+				C060D59E288025F70050642C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C060D59F288025F70050642C /* Build configuration list for PBXNativeTarget "PeopleInSpaceSPM (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C060D5A0288025F70050642C /* Debug */,
+				C060D5A1288025F70050642C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C060D5A4288026240050642C /* PeopleInSpace */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PeopleInSpace;
+		};
+		C060D5A62880264C0050642C /* PeopleInSpace */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PeopleInSpace;
+		};
+		C060D5A8288026F20050642C /* People */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = People;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C060D57F288025F60050642C /* Project object */;
+}
